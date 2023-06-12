@@ -1,21 +1,29 @@
-PRODUCTOS
-AGREGAR PRODUCTOS: http://localhost:8080/api/products
-VER PRODUCTOS: http://localhost:8080/api/products
-BUSCAR PRODUCTO: http://localhost:8080/api/products/:id
-ACTUALIZAR PRODUCTO: http://localhost:8080/api/products/:id
-ELIMINAR PRODUCTO: http://localhost:8080/api/products/:id
+# Preentrega 1
 
-CARRITO
+## Endpoints de Productos
 
-CREAR CARRITO: http://localhost:8080/api/carts
-VER CARRITO POR ID: http://localhost:8080/api/carts/:cid
-AGREGAR PROD AL CARRITO: http://localhost:8080/api/carts/:cid/products/:id
+- Agregar producto: `POST /api/products`
+- Ver productos: `GET /api/products`
+- Buscar producto por ID: `GET /api/products/:id`
+- Actualizar producto: `PUT /api/products/:id`
+- Eliminar producto: `DELETE /api/products/:id`
 
-![CREAR PRODUCTO](1.png)
-![VER PRODUCTO](2.png)
-![BUSQUEDA POR ID](3.png)
-![ACTUALIZAR PRODUCTO](4.png)
-![ELIMINAR PRODUCTO](5.png)
-![CREACION DE CARRITO](6.png)
-![VER CARRITO POR ID](8.png)
-![AGREGAR PRODUCTO AL CARRITO Y CANTIDAD](7.png)
+### Ejemplos de uso
+
+![Agregar producto](./img/1.png)
+![Ver productos](./img/2.png)
+![Buscar producto por ID](./img/3.png)
+![Actualizar producto](./img/4.png)
+![Eliminar producto](./img/5.png)
+
+## Endpoints de Carrito
+
+- Crear carrito: `POST /api/carts`
+- Ver carrito por ID: `GET /api/carts/:cid`
+- Agregar producto al carrito: `POST /api/carts/:cid/products/:id`
+
+### Ejemplos de uso
+
+![Crear carrito](./img/6.png)
+![Ver carrito por ID](./img/8.png)
+![Agregar producto al carrito](./img/7.png)
