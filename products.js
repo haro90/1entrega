@@ -4,8 +4,6 @@ const ProductManager = require("./ProductManager");
 
 const productManagerInstance = new ProductManager();
 
-// Resto del código...
-
 router.get("/", (req, res) => {
   const limit =
     parseInt(req.query.limit) || productManagerInstance.getProducts().length;

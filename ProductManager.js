@@ -11,7 +11,6 @@ class ProductManager {
       const data = fs.readFileSync("productos.json", "utf8");
       this.products = JSON.parse(data);
     } catch (error) {
-      // Si ocurre un error al cargar el archivo, se asume que no hay productos guardados
       this.products = [];
     }
   }
@@ -22,7 +21,7 @@ class ProductManager {
   }
 
   generateProductId() {
-    // Lógica para generar un ID único para un producto
+    // ID único para un producto
     const timestamp = Date.now();
     const random = Math.floor(Math.random() * 1000);
     return `${timestamp}-${random}`;
