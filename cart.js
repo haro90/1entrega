@@ -37,6 +37,7 @@ class CartManager {
     this.carts.push(newCart);
     this.saveCarts();
   }
+
   getCartById(id) {
     const cart = this.carts.find((cart) => cart.id === id);
     if (cart) {

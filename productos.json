@@ -82,5 +82,33 @@
       "thumbnail1.jpg",
       "thumbnail2.jpg"
     ]
+  },
+  {
+    "id": "1686607878827-171",
+    "title": "Producto 2",
+    "description": "Descripción del producto 2",
+    "code": "ABC123",
+    "price": 10.99,
+    "status": "Disponible",
+    "stock": 50,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "thumbnail1.jpg",
+      "thumbnail2.jpg"
+    ]
+  },
+  {
+    "id": "1686608090057-135",
+    "title": "Producto 1",
+    "description": "Descripción del producto 1",
+    "code": "ABC123",
+    "price": 10.99,
+    "status": "Disponible",
+    "stock": 50,
+    "category": "Electrónicos",
+    "thumbnails": [
+      "thumbnail1.jpg",
+      "thumbnail2.jpg"
+    ]
   }
 ]
