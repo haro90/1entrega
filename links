@@ -1,0 +1,12 @@
+PRODUCTOS
+AGREGAR PRODUCTOS: http://localhost:8080/api/products
+VER PRODUCTOS: http://localhost:8080/api/products
+BUSCAR PRODUCTO: http://localhost:8080/api/products/:id
+ACTUALIZAR PRODUCTO: http://localhost:8080/api/products/:id
+ELIMINAR PRODUCTO: http://localhost:8080/api/products/:id
+
+CARRITO
+
+CREAR CARRITO: http://localhost:8080/api/carts
+VER CARRITO POR ID: http://localhost:8080/api/carts/:cid
+AGREGAR PROD AL CARRITO: http://localhost:8080/api/carts/:cid/products/:id
